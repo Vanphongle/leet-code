@@ -9,3 +9,4 @@
 - If the middle element is not equal to the next element, it means that the single element is either at the middle index or to the left of it. Therefore, we update the right boundary to mid to search in the left half of the search space.
 - We repeat these steps until we find the index of the single element in the array.
 - Finally, we return the single element at the index we found.
+- a
