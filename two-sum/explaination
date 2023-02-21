@@ -1,3 +1,0 @@
-Start by understanding the problem statement. We are given an array of integers and a target value. We need to find two numbers in the array that add up to the target value and return their indices.
-
-One approach to solve this problem is to use a hash table. We can traverse the array and for each element, we can check if its complement (i.e., the difference between the target and the current element) is already present in the hash table. If it is present, we have found our pair and we can return their indices. If not, we can add the current element to the hash table.
