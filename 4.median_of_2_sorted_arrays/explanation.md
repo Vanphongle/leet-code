@@ -1,0 +1,7 @@
+-Runtime Optimisation: Iterative binary search to find the median of an array:
+-split array, left smaller, right bigger, median of combined arrays calculated, average of two of split point
+-Function checks the length of arrays, swaps if one is larger
+-j index is (m+n+1)
+-Memory could be lowered by modifying the input arrays in place rather then create a new place, however input arrays were part of parameters. 
+-m = len of 1st input array
+-n = len 2nd input array
